@@ -1,0 +1,189 @@
+ /* XSM (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .logo {
+        width: 15%;
+        margin-top: 1%;
+    }
+    /* banner */
+    .banner{
+        margin-top: -20px;
+    }
+    .banner-h{
+        font-size: 30px;
+    }
+    .banner-p {
+        font-size: 16px;
+    }
+    .banner_resize {
+        padding-bottom: 45px;
+    }
+    .btn_customize{
+        margin-top: 0!important;
+    }
+    .banner_img {
+        padding-bottom: 20px;
+    }
+    /* success */
+    .icon_custom {
+        font-size: 60px;
+        color: white;
+    }
+    .scs_h {
+        font-size: 30px;
+    }
+
+    .scs_p, .scs_p2, .scs_p3{
+        text-align: center;
+        margin-left: 0;
+        font-size: 20px;
+    }
+    /* mentor */
+    .mentor{
+        padding-top: 0!important;
+    }
+    /* form */
+    .ssform{
+        padding-top: 0!important;
+    }
+    /* footer */
+    .foots p {
+        font-size: 16px;
+    }
+    .footer{
+        padding-top: 0!important;
+    }
+}
+
+/* SM (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* header */
+    .logo {
+        width: 13%;
+        margin-top: 1%;
+    }
+    /* banner */
+    .banner-h {
+        font-size: 42px;
+    }
+    .banner-p {
+        font-size: 23px;
+    }
+    .icon_custom {
+        font-size: 55px;
+        color: white;
+    }
+    .scs_h {
+        font-size: 35px;
+    }
+    .scs_p, .scs_p2, .scs_p3{
+        font-size: 18px;
+        margin-left: 0;
+        text-align: center;
+    }
+    /* mentor */
+    .card_custom {
+        width: 34rem!important;
+    }
+        .p-mentor{
+        font-size: 23px;
+    }  
+    /* footer */
+    .foots p {
+        font-size: 18px;
+    }
+
+}
+
+ /* MD (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* header start */
+    .logo {
+        width: 10%;
+    }
+    /* header end */
+    /* banner start */
+    .banner-h {
+        font-size: 35px!important;
+        margin-left: -2px;
+    }
+    .banner-p {
+        font-size: 20px!important;
+    }
+    .banner img {
+        width: 100%;
+        height: 275px;
+    }
+    /* banner end */
+    /* success start */
+    .scs-bg {
+        min-height: 335px!important;
+        padding: 15% 5% 0% 5%;
+        text-align: center;
+    }
+    .scs_h {
+        font-size: 30px;
+    }
+    .icon_custom {
+        font-size: 45px;
+    }
+    /* success end */
+    /* learn start */
+    .banner-p1 {
+        font-size: 17px!important;
+    }
+    /* learn end */
+    /* mentor */
+    .card_custom{
+        width: 45rem!important;
+    }
+    .p-mentor{
+        font-size: 16.3px;
+    }   
+}
+
+ /* LG (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-h {
+        font-size: 46px;
+        margin-top: 10px;
+        margin-left: -2px;
+    }
+    .banner-p {
+        font-size: 21px!important;
+    }
+    .btn{
+        margin-top: 12px;
+    }
+    /* success start */
+    .scs_h {
+        font-size: 22px;
+    }
+    /* success end */
+    /* mentor */
+    .card_custom{
+    width: 50rem!important;
+    }
+    .p-mentor{
+        font-size: 18px;
+    }
+}
+ /* XL devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* banner */
+    .banner-p {
+        font-size: 25px!important;
+    }
+    .banner-h{
+        font-size: 50px!important;
+        margin-left: -4px;
+    }
+    .btn{
+        margin-top: 7.8%;
+        padding: 0.575rem 1.4rem;
+    }
+    /* learm start */
+    .btn_customize{
+        margin-top: 0px;
+    }
+    /* learm end */
+}
